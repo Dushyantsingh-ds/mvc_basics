@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+Use of [NonAction] Property
+<p> @Html.ActionLink("Click For Controller", "Show_Controller", "Home")</p>
+<br />
+        public string Show_Controller()<br />
+        {<br />
+            return "This is a Controller Without any View";<br />
+        }// it just like Controller<br />
+                                   <br />
+<p> @Html.ActionLink("Click on FUnction", "Show_Function", "Home")</p> 
+         <br />
+        [NonAction]<br />
+        public string Show_Function()<br />
+        {<br />
+            return "This is a Controller Without any View";<br />
+        }// it just like Function<br /><br /><br /><br /><br />
+Created by Dushyant singh
+Github https://github.com/Dushyantsingh-ds
+Instagram https://instagram.com/dushyantsingh.ds
+
+
+
